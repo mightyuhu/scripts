@@ -10,4 +10,5 @@ export LCD="./"
 export RCD="/public_html/"
 
 export BASEDIR=$(dirname $0)
+
 sh $BASEDIR/../ftp-suite/mirror-ftp-sync.sh
