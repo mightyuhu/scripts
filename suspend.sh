@@ -1,3 +1,3 @@
 #!/bin/bash
-i3lock &;
-sudo pm-suspend;
+sudo pm-suspend &
+i3lock &
