@@ -36,5 +36,5 @@ i3-msg focus parent
 i3-msg split h
 lxterminal &
 wait_for "xdotool search --onlyvisible --pid $! --name lxterminal"
-i3-msg 'workspace 4-Music'
+i3-msg 'workspace 4-Spotify'
 spotify&
