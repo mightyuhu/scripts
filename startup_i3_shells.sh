@@ -29,6 +29,7 @@ wait_for "xdotool search --onlyvisible --pid $! --name lxterminal"
 i3-msg split h
 lxterminal &
 wait_for "xdotool search --onlyvisible --pid $! --name lxterminal"
+i3-msg resize grow width 20 px or 20 ppt
 i3-msg split v
 lxterminal &
 wait_for "xdotool search --onlyvisible --pid $! --name lxterminal"
