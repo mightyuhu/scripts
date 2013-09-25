@@ -1,4 +1,3 @@
 #!/bin/bash
-sudo echo Suspending...
-sudo pm-suspend &
+gksudo pm-suspend 
 i3lock &
