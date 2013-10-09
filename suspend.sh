@@ -1,3 +1,3 @@
 #!/bin/bash
 gksudo pm-suspend 
-i3lock &
+i3lock -c000000
